@@ -1,0 +1,517 @@
+#+TITLE: ORG MODE NOTES
+#+OPTIONS: toc:nil
+
+* Org mode notes! from manual
+** Introduction
+*** Summary
+    Org is a mode for:
+- keeping notes
+- maintaining TODO list
+- project planning
+all with effective fast plain-text markup language. Know for support [[*Appendix][literate programming]].
+Implemented on top of outline mode. like a mark up lanuage. 
+
+*** Install
+/M-x package-install RET org/ on linux
+
+
+*** Activation
+Needs Font Lock to be turned on (default in Emacs).
+
+org-store-link "C-c l"
+org-agenda "C-c a"
+org-capture "C-c c"
+
+org extension on file to default org more
+
+
+*** Feedback 
+I can submit feedback to org with M-x org-submit-bug-report RET
+
+*** Convention
+
+'TODO'
+'WAITING'
+    TODO keywords are written with all caps
+
+'boss'
+'ARCHIVE'
+    Tags are case-sensitive, User-defined tags are written in lowercase; built-in tags with special meaning are
+written as they should appear in the document, usually with all caps
+
+'Release'
+'PRIORITY'
+    User-defined properties are capitalize; built-in props with special meaning are written with all caps
+
+'TITLE'
+'BEGIN'..'END'
+    Keywords and bloacks are written in uppercase to enhace their readability
+
+
+** Document Structure
+
+*** Headlines
+Headlines define the structore of an outline tree. The headlines in Org start with one or more stars on the left 
+margin i.e.
+#    * Top level
+#    ** Second level
+#    *** Third level
+#        some text
+#    *** Third level
+
+and so on. 
+
+*** Visibility Cycling
+Tab to change to view of subtree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** Keyboard bindings
+| Keyboard Binding | Action                                                                                   |
+|------------------+------------------------------------------------------------------------------------------|
+| TAB              | rotate current subtree among the state (folded, children, subtree)                       |
+| C-u TAB          | Global cycling: rotate the entire buffer among the states (overview, contents, show all) |
+| C-u C-u TAB      | Switch back to the startup visibility of the buffer                                      |
+| C-u C0u C-u TAB  | Show all, including draws                                                                |
+| C-c C-r          | Reveal context around poit show the current entry                                        |
+** Appendix
+   - *literare programming*: where the is english explanation of a programs logic interspersed with snippets of macros and traditional source code
+   - *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ** Introduction
+# *** Summary
+
+# Org mode is an organization tool. Used for:
+# - notes
+# - maintaing todo list
+# - project planning
+# - etc.
+
+# implemented on a top of Outline mode
+
+
+# *** Installation
+
+# I guess I already did this? Gonna skip this section.
+
+# *** Activation
+
+# Org mode buffers need Font lock to be turned on (default for emacs).
+
+# For better experience, 3 org commands should be accessible anywhere in Emacs not just in the Org buffer.
+
+# - org-store-link
+#   - (global-set-key (kbd "C-c l") 'org-store-link)
+# - org-agenda
+#   - (global-set-key (kbd "C-c a") 'org-agenda)
+# - org-capture
+#   - (global-set-key (kbd "C-c c") 'org-capture)
+
+# File with .org use org mode by default.
+
+# *** Feedback
+
+# We can submit problems with org using org-submit-bug-report
+
+
+# *** Convention
+
+# Certain words have certain meaning not that important.
+
+
+
+# ** Document Structure
+
+# *** Headlines
+
+# Headline define the structure of an outline tree. denotes with one or more starts on the
+# left margin, for example:
+
+# # * Top level headline
+# # ** Second level
+# # *** Third level
+#      some text
+# # *** Third level
+# #     more text
+# # * Another top level headline
+
+# *** Visibility Cycling
+
+# TAB
+
+#   Subtree cycling: Roate current subtree amount the states
+#       --> FOLDED --> CHILDREN --> SUBTREE --> FOLDED -->..
+
+# C-u TAB
+
+# Global cycling
+
+
+# *** Motion
+# C-c C-n: next heading
+# C-c C-p: previous heading
+# C-c C-f: Next ehading same level
+# C-c C-b: Previous heading same level
+# C-c C-u: backward to higher level heading
+
+# *** Structure Editing
+
+# M-RET: insert new heading with same level as current
+# C-c C-x M: insert new TODO entry with same level as current heading (not working??)
+# TAB (in new empty entry): cycles through resonable levels.
+# M-LEFT/RIGHT: Promote or demote current heading by one level.
+# M-UP/DOWN: Move subtree up or down
+# C-c C-w: refile entry or region to a different location
+# C-x n s/w: Narrow buffer to current subtree and widen it again
+
+# *** Sparse Tree
+# we can construct sparse trees for selected information in an outline tree so the entire document is
+# folded as much as possible
+
+# C-c / : prompt for an extra key to select a sparse-tree creating command
+
+# *** Plain Lists
+# Org konws ordered list, unordered list, and description list.
+
+# - Unordered list items start with '-', '+', or '*' as bullets.
+# - Ordered list items start with '1.', or '1)'.
+# - Description list use '::' to separate the term from the description
+
+
+# TAB: Items can be folded just like headline levels.
+# M-RET: Insert new item at current level
+# C-c C-x M: insert a new item with a checkbox 
+# M-S-UP/DOWN: Move the item including subitems up/down
+# M-LEFT/RIGHT: Decrease/increase the indentation of an item, leaving children alone.
+# M-S-LEFT/RIGHT: Drecrease/increase the indention of item including subitems
+# C-c C-c: If there is a checkbox in the item line, toggle the state of the checkbox
+# C-c - : Cycle the entire list level through different iemize/enumerate bullets
+
+# 	+ TODO 
+
+# ** TABLES
+# ORG COMES WITH A FAST INTUITIVE TABLE EDITOR. FOR SPREADSHEET-LIKE CALCULATIONS.
+
+# FORMAT TABLES IN PLAIN ASCII. ANY LINE '|' AS THE FIRST NON-WHITESPACE CHAR IS CONSIDERED PART OF A
+# TABLE.'|' IS ALSO THE COL SEP. AN EXAMPLE
+
+# | NAME  | PHONE | AGE |
+# |-------+-------+-----|
+# | PETER |  1234 |  17 |
+# | ANNA  |  4321 |  25 |
+
+# A TABLE IS RE-ALIGNED AUTOMATICALLY EACH TIME YOU PRESS TAB OF RET.
+# - TAB MOVES TO THE NEXT FIELD
+# - RET TO THE NEXT ROW
+
+# THE INDENTATION OF THE TABLE IS SET BY THE FIRST LINE. ANY LINE STARTING WITH
+# '|-" IS CONSEDERED AS A HORIZONTAL SEPARATOR LINE.
+
+# CAN CREATE FAST BY TYPE '|NAME|PHONE|AGE' FOLLOWED BY C-C RET.
+
+# | KEY BINDINGS         | ACTION                                                                     |
+# |----------------------+----------------------------------------------------------------------------|
+# | C-C C-C              | RE-ALIGN THE TABLE WITHOUT MOVING POINT                                    |
+# | TAB                  | RE-ALIGN THE TABLE, MOVE TO THE NEXT FIELD. CREATES A NEW ROW IF NECESSARY |
+# | S-TAB                | RE-ALIGN, MOVE TO PREVIOUS FIELD                                           |
+# | RET                  | RE-ALIGN THE TABLE AND MOVE DOWN TO NEXT ROW.                              |
+# | S-UP/DOWN/LEFT/RIGHT | MOVE A CELL UP, DOWN, LEFT, AND RIGHT BY SWAPPING WITH ADJACENT CELL       |
+# | M-LEFT/RIGHT         | MOVE THE CURR COLUMN LEFT/RIGHT                                            |
+# | M-S-LEFT             | KILL THE CURRENT COLUMN                                                    |
+# | M-S-RIGHT            | INSERT A NEW COL TO THE LEFT OF POINT POSITION                             |
+# | M-UP/DOWN            | MOVE THE CURR ROW UP/DOWN                                                  |
+# | M-S-UP               | KILL THHE CURR ROW                                                         |
+# | M-S-DOWN             | INSERT A NEW ROW ABOVE THE CURRENT ROW                                     |
+# | C-C RET              | INSERT A HORIZONTAL LINE BELOW CURR ROW                                    |
+# | C-C ^                | SORT THE TABLE LINES IN THE REGION                                         | 
+
+# ** HYPERLINKS
+
+# ORG RECOGNIZES PLAIN URL. FORMAT:
+
+# # [[LINK][DESCRIPTION] ]
+
+# OR 
+
+# # [LINK ]
+
+# ** TODO ITEMS
+
+# *** TODO BASICS
+
+# ANY HEADLINE BECOME A TODO ITEM WHEN IT STARTS WITH THE WORD 'TODO' FOR EXAMPLE:
+
+# **** TODO WRITE LETTER TO SAM FORTUNE
+
+# THE MOST IMPORTANT COMMANDS TO WORK WITH TODO ENTRIES:
+
+# | KEY BINDINGS     | ACTIONS                                                                         |
+# |------------------+---------------------------------------------------------------------------------|
+# | C-C C-T          | ROTATE THE TOFO STATE OF THE CURRENT ITEM AMONG -> (UNMARKER) -> TODO -> DONE-> |
+# | S-RIGHT/LEFT     | SELECT THE FOLLOWING/PRECEDING TODO STATE                                       |
+# | C-C / T          | VIEW TODO ITEMS IN SPARSE TREE                                                  |
+# | M-X ORG-AGENDA T | SHOW THE GLOBAL TODO LIST                                                       |
+# | S-M-RET          | INSERT A NEW TODO ENTRY BELOW THE CURRENT ONE                                   |
+
+# *** MULTI-STATE WORKFLOW
+
+# YOU CAN USE TODO KEYWORDS TO INDICATE @EMPHA{SEQUENTIAL} WORKING PROGRESS STATE:
+
+# [[HTTPS://ORGMODE.ORG/GUIDE/MULTI_002DSTATE-WORKFLOW.HTML#MULTI_002DSTATE-WORKFLOW][READ]]
+
+# *** PROGRESS LOGGING
+# TO RECORD A TIMESTAMP AND A NOTE WHEN CHANGING A TODO STATE, CALL THE COMMAND ORG-TODO WITH A PREFUX
+# ARGUMENT.
+
+# C-U C-C C-T: PROMPT FOR A NOTE AND RECORD A TIME OF THE TODO STATE CHANGE.
+
+# [[https://orgmode.org/guide/Progress-Logging.html#Progress-Logging][Read]]
+
+# *** Priorities
+
+# We can put priorities on TODO tasks. This can be done by placing a priority cookie into the headline of
+# a TODO item like:
+
+# **** TODO [#A] Write letter to Sam Fortune
+
+# Org mod supports 3 priorities: 'A', 'B', and 'C'. A highest. 'B; the default if none given.
+
+
+# | Keyboard binding                | action                                                 |
+# |---------------------------------+--------------------------------------------------------|
+# | C-c ,                           | set the priority of the current headline               |
+# | S-UP/DOWN(org-priority-up/down) | increase/decrease the priority of the current headline |
+
+# *** Breaking Task Down into Subtask
+
+# We can break down large task into smaller manageable subtask by creating an outline
+# tree below a TODO item with detaied subtask on the tree. To keep an  overview of the fraction of 
+# subtasks that have already been marked as done insert either '[/]' or '[%]' anywhere in the
+# headline. Example:
+
+# **** Organize Party [1/3]
+# ***** TODO Call people [1/2]
+# ****** TODO Peter
+# ****** DONE Sarah
+# ***** TODO Buy food 
+# ***** DONE Talk to neighbor
+
+
+# *** Checkboxes
+# Items in a plain list can be made into a checkbox starting it with the string '[ ]'.
+# Example of checkbox list
+
+# **** TODO Organize party [1/2]
+# - [-] call people [1/2]
+#   - [ ] Peter
+#   - [X] Sarah
+# - [X] order food
+
+
+# Checkboxed work hierarchically.
+
+# | keyboard binding | action                          |
+# |------------------+---------------------------------|
+# | C-c C-c          | toggle checkox status           |
+# | M-S-RET          | Insert new item with a checkbox |
+
+	 
+# ** Tags
+
+# We can assign tags to headline to use as labels and context.
+
+# Every headline can contain a list of tage whic occur at the endo the headline.
+
+# Tags are normal words containing letters, numbers, '_', and '@'.
+
+# Tags must be preceded and followed by a single colon i.e ':work:' or ':work:urgent:'
+
+# Tags make use of an hierarchical structure of outline tree. All subheadings inherit the tag of parent
+# heading.
+
+# Tags can simply be typed into the buffer at the end of a headline, After a colon M-TAB offeres
+# completion on tags
+
+# *** TODO Read information from [[https://orgmode.org/guide/Tags.html#Tags][TAGS]]
+
+# ** Properties
+# Properties are key-value pairs associated with an entry. useful for things like CD collection
+
+# *** TODO Read about properties [[https://orgmode.org/guide/Properties.html#Properties]]
+
+# ** Dates and Times
+
+# *** Timestamps
+
+
+# ** General notes
+#    - Comments start with #
+#    - 
+
+# ** Useful keyboard short cuts to memorize
+
+* Org mode notes from Harry Schwartz youtube
+
+
+
+** Outliner
+TEXT TEXT TEXT
+
+*** more item
+*** yet more
+
+** Markup
+   :PROPERTIES:
+   :ORDERED:  t
+   :END:
+   *BOLD*, /italic/, =verbatim= , +strikethrough+ 
+
+- bullet
+- list
+- items
+
+[[https://www.youtube.com/watch?v=SzA2YODtgK4][org mode video]] 
+
+
+[[file:diff.org::*This is something that is not useful][Link to a useless org file]]
+
+
+
+** Tables
+
+
+| Some | Data           |
+|------+----------------|
+|   12 | buckle my shoe |
+|   34 | shit the door  |
+
+
+
+** Export to other formats
+
+C-c C-e : exports to other formats
+
+
+** Source Code
+
+   
+
+#+BEGIN_SRC python
+  def fact(n)
+    if n == 0
+      return 1
+    else
+      n * fact(n - 1)
+    end
+  end
+#+END_SRC
+
+#+RESULTS:
+
+
+
+
+
+
+
+
+** Latex
+
+- Characters: \alpha \rightarrow \beta 
+- $O(n \log n)$
+
+
+** Literate programming
+
+
+
+** Todo stuff!
+
+*** TODO explain todo lists
+    SCHEDULED: <2020-03-23 Mon 17:00-19:00> DEADLINE: <2020-03-31 Tue 22:00>
+*** DONE cycle through states
+    CLOSED: [2020-03-10 Tue 17:00]
+*** TODO thing
+*** TODO things
+    DEADLINE: <2020-03-09 Mon
+
+
+
+* Org mode nodes from GDQuewst youtube
+
+  Today I've had pasta for lunch!
+

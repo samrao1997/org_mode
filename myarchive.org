@@ -1,0 +1,77 @@
+
+Archived entries from file /home/sam/coding/org_mode/todo.org
+
+
+* CANCEL to archive
+  CLOSED: [2020-03-11 Wed 02:24]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-03-11 Wed 02:24
+  :ARCHIVE_FILE: ~/coding/org_mode/todo.org
+  :ARCHIVE_OLPATH: Tomorrow
+  :ARCHIVE_CATEGORY: todo
+  :ARCHIVE_TODO: CANCEL
+  :END:
+  :LOGBOOK:
+  - State "CANCEL"     from              [2020-03-11 Wed 02:24] \\
+    testing why cant i get to myarchive.org
+  :END:
+
+Archived entries from file /home/sam/coding/org_mode/todo.org
+
+
+* DONE archive
+  CLOSED: [2020-03-11 Wed 02:26]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-03-11 Wed 02:26
+  :ARCHIVE_FILE: ~/coding/org_mode/todo.org
+  :ARCHIVE_OLPATH: Tomorrow
+  :ARCHIVE_CATEGORY: todo
+  :ARCHIVE_TODO: DONE
+  :END:
+  :LOGBOOK:
+  - State "DONE"       from              [2020-03-11 Wed 02:26] \\
+    done
+  :END:
+
+Archived entries from file /home/sam/coding/org_mode/todo.org
+
+
+* CANCEL Now
+  CLOSED: [2020-03-11 Wed 02:27]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-03-11 Wed 02:27
+  :ARCHIVE_FILE: ~/coding/org_mode/todo.org
+  :ARCHIVE_OLPATH: Tomorrow
+  :ARCHIVE_CATEGORY: todo
+  :ARCHIVE_TODO: CANCEL
+  :END:
+  :LOGBOOK:
+  - State "CANCEL"     from              [2020-03-11 Wed 02:27] \\
+    cancel
+  :END:
+
+* Testing archive
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-03-11 Wed 14:48
+  :ARCHIVE_FILE: ~/coding/org_mode/planner.org
+  :ARCHIVE_OLPATH: Today
+  :ARCHIVE_CATEGORY: planner
+  :END:
+
+* To archive to calendar with new date
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-03-12 Thu 00:43
+  :ARCHIVE_FILE: ~/coding/org_mode/planner.org
+  :ARCHIVE_OLPATH: Today
+  :ARCHIVE_CATEGORY: planner
+  :END:
+#+BEGIN: clocktable :scope subtree :maxlevel 2
+#+CAPTION: Clock summary at [2020-03-11 Wed 19:11]
+| Headline             | Time   |      |
+|----------------------+--------+------|
+| *Total time*         | *0:42* |      |
+|----------------------+--------+------|
+| Today                | 0:42   |      |
+| \_  Finish lab06 61C |        | 0:42 |
+#+END:
+

@@ -1,0 +1,45 @@
+#+SEQ_TODO: NEXT(a) TODO(t) WAITING(w) SOMEDAY(s) | DONE(d) CANCELLED(c)
+
+
+
+* GTD related things
+** TODO Weekly Review
+   SCHEDULED: <2020-03-13 Fri +1w -3>
+* Legal
+** DONE Prep
+   CLOSED: [2020-03-10 Tue 22:00] DEADLINE: <2020-03-10 Tue> SCHEDULED: <2020-03-16 Mon>
+   - Collect
+** TODO call 
+   SCHEDULED: <2020-03-18 Wed ++1w>
+
+** TODO get friends
+   SCHEDULED: <2020-03-25 Wed>
+
+* NEXT learn something<2020-03-20 Fri +1w>
+  :PROPERTIES:
+  :LAST_REPEAT: [2020-03-10 Tue 22:49]
+  :END:
+
+  - State "DONE"       from "SOMEDAY"    [2020-03-10 Tue 22:49]
+** NEXT pay the rent
+   DEADLINE: <2020-05-01 Fri 10:00 +1m -3d>
+   :PROPERTIES:
+   :LAST_REPEAT: [2020-03-10 Tue 22:23]
+   :END:
+
+   - State "DONE"       from "SOMEDAY"    [2020-03-10 Tue 22:23]
+** NEXT cry about my lyfe
+   SCHEDULED: <2020-03-20 Fri 20:00-21:00 +1w>
+   :PROPERTIES:
+   :LAST_REPEAT: [2020-03-10 Tue 22:22]
+   :END:
+
+
+   - State "DONE"       from "SOMEDAY"    [2020-03-10 Tue 22:22]
+* Family
+** TODO kid concert
+   SCHEDULED: <2020-03-20 Fri 16:00-17:00>
+
+
+
+

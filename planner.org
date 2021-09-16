@@ -1,0 +1,174 @@
+#0+TITLE: Daily Planner
+#+author:Samuel Rao
+#+SEQ_TODO: NEXT(n/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s/!) PROJ(p) PROGRESS(r@/!) | DONE(d@/!) CANCEL(c@/!) COMEBACK(u@/!)
+#+TAGS: SELF(s) MENTAL(m) PHYSICAL(p) CAREER(c) COURSEWORK(w) LEARNING(l) ARCHIVE(a) HABIT(h)
+#+COLUMNS: %7TODO(To Do) %40ITEM(Task) %TAGS(Tags) %6CLOCKSUM(clock)
+#+ARCHIVE: myarchive.org::        
+[[file:myarchive.org][--> TO MAIN ARCHIVE <--]] 
+[[file:making_calendar_arch.org][--> CALENDAR ARCHIVE <--]]
+# THIS FILE IS IN OUR AGENDA FILE LIST #
+* Today
+:PROPERTIES:
+:ARCHIVE: making_calendar_arch.org::* 2020-03-17 Tuesday[/]
+:END:
+
+  # Task to get done today.
+  # once done can archive (C-c C-x C-a) to date heading in calendar file.
+  # Remember we must change the date of the heading in properties before
+  # archiving so right date => maybe figure something to automatically set
+  # right heading => (TASK)
+  
+** Notes
+   # General notes from throughout the day 
+   #  goes in separate notes archive
+             [[*set up archive for general notes to store][task]]
+   - Damn have gotten pretty good at org mode
+   - 
+   - 
+
+** DONE [#A] Risc-V Datapath hw                                  :COURSEWORK:
+   CLOSED: [2020-03-19 Thu 13:28] DEADLINE: <2020-03-18 Wed>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2020-03-19 Thu 13:28]
+   :END:
+
+** TODO Project 3A CS61C                                         :COURSEWORK:
+   DEADLINE: <2020-03-20 Fri 23:58> 
+   :CLOCKING:
+   CLOCK: [2020-03-13 Fri 18:11]--[2020-03-13 Fri 18:34] =>  0:23
+   CLOCK: [2020-03-13 Fri 17:17]--[2020-03-13 Fri 18:07] =>  0:50
+   CLOCK: [2020-03-13 Fri 14:11]--[2020-03-13 Fri 14:58] =>  0:47
+   :END:
+   :LOGBOOK:
+   - State "TODO"       from              [2020-03-11 Wed 02:51] \\
+     making a computer?
+   :END:
+
+* Tomorrow
+  # Task to get done scheduled for tomorrow.
+** TODO work on ML class                                           :LEARNING:
+   <2020-03-18 Wed>
+* Task that need get get done
+  # General task to get done 
+  #     These are tasks that I should be looking at each day (maybe scheduling and move to
+  # tomorrow or today according)
+** TODO Project 3B 61C                                           :COURSEWORK:
+   DEADLINE: <2020-04-03 Fri>
+** TODO Cache hw                                                 :COURSEWORK:
+   DEADLINE: <2020-04-06 Mon>
+* General Task
+# these are general goals
+** Get better at org mode
+** Learn how to use git better
+* Daily/Habits
+  # Daily habit to be building routines
+** NEXT Wake up early                                                 :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE: habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:27]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thu 13:27]
+   - State "DONE"       from "NEXT"       [2020-03-18 Wed 15:30]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 21:54]
+   :END:
+** NEXT Exercise                                                      :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE:    habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:25]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thus 13:25]
+   - State "DONE"       from "NEXT"       [2020-03-19 Wed 13:25]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 21:54]
+   :END:
+** NEXT art                                                           :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE: habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:27]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thu 13:27]
+   - State "DONE"       from "NEXT"       [2020-03-18 Wed 17:27]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 15:29] \\
+     line art school
+   - Rescheduled from "[2020-03-18 Wed .+1d]" on [2020-03-17 Tue 15:23]
+   :END:
+** NEXT read                                                          :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE: habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:28]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thu 13:28]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 15:47] \\
+     chapter from combo book on sum and product rule
+   - Rescheduled from "[2020-03-18 Wed .+1d]" on [2020-03-17 Tue 15:23]
+   :END:
+** NEXT Meditate                                                      :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE: habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:28]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thu 13:28]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 21:53]
+   :END:
+** NEXT Coding Interview                                              :HABIT:
+   SCHEDULED: <2020-03-20 Fri .+1d>
+   :PROPERTIES:
+   :STYLE: habit
+   :LAST_REPEAT: [2020-03-19 Thu 13:28]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2020-03-19 Thu 13:28]
+   - State "DONE"       from "NEXT"       [2020-03-17 Tue 21:52] \\
+     testing
+   :END:
+** An ideal day:
+*** Wake up around 6:30am <2020-03-12 Thu 06:30-06:40>
+*** Exercise <2020-03-12 Thu 06:40-08:00>
+**** Go for 20 minute run
+**** Stretch + yoga + meditate
+*** Shower + Get ready for day <2020-03-12 Thu 08:00-08:30>
+*** Work Work Work <2020-03-12 Thu 08:30-12:00>
+**** 10 minutes org mode tutorial
+**** 10 minutes git tutorial
+**** 10 minutes CS flashcard
+**** 20 minutes LeetCode
+**** 10 minutes Cracking the Coding Interview
+**** 1 hour CS61C
+**** 20 ML Online class
+**** 40 minutes CS170
+**** 40 minutes CS61C
+**** 20 ML Online class
+*** Lunch <2020-03-12 Thu 12:00-13:00>
+*** Fun <2020-03-12 Thu 13:00-14:00>
+**** Can really be anything
+**** 
+*** Work <2020-03-12 Thu 14:00-18:00>
+*** Relax + Dinner <2020-03-12 Thu 18:00-20:00>
+*** Work <2020-03-12 Thu 20:00-21:30>
+*** Sleep <2020-03-12 Thu 21:30>
+* Relax Tasks
+  # task that can be done whenever general fun things
+** Learn adobe illustrator                                    :SELF:LEARNING:
+** Practice Piano                                           :MENTAL:LEARNING:
+** Meditate                                                     :SELF:MENTAL:
+* Goals
+  # These are general life goals
+** Become a software developer
+** Be healthy
+** No lat
+* Lower priority
+  # Things that I should look into doing if I am doing nothing!
+* Ideas
+  # Basic thoughts about anything not really todo tasks generally
+** think about possible backpacking for spring break
+** think about doing americor?
+

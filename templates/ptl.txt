@@ -1,0 +1,6 @@
+* TODO %^{Description}
+  %?
+  %A
+  :LOGBOOK:
+  - ADDED: %U
+  :END: 

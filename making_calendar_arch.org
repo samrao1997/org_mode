@@ -1,0 +1,160 @@
+#+TITLE: Daily Planner archive
+#+author:Samuel Rao
+
+#+SEQ_TODO: NEXT(n/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s/!) PROJ(p) PROGRESS(r@/!) | DONE(d@) CANCEL(c@)
+#+TAGS: SELF(s) MENTAL(m) PHYSICAL(p) CAREER(c) COURSEWORK(w) LEARNING(l) ARCHIVE(a)
+#+ARCHIVE: myarchive.org:: 
+       
+[[file:myarchive.org][--> TO ARCHIVE <--]] 
+
+
+# THIS FILE NOT ADDED TO AGENDA FILE LIST 
+
+Archived entries from file /home/sam/coding/org_mode/planner.org
+
+
+* 2020-03-11 Wednesday[1/1]
+** DONE Testing archive sent to different arch
+   CLOSED: [2020-03-11 Wed 16:43]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-11 Wed 14:50
+   :ARCHIVE_FILE: ~/coding/org_mode/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from              [2020-03-11 Wed 16:43]
+   :END:
+
+Archived entries from file /home/sam/coding/org_mode/planner.org
+
+** Testing archive sent to different arch
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-11 Wed 14:51
+   :ARCHIVE_FILE: ~/coding/org_mode/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :END:
+
+* 2020-03-12 Thursday[1/1]
+
+** To archive to calendar with new date
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-12 Thu 00:45
+   :ARCHIVE_FILE: ~/coding/org_mode/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :END:
+
+** ORG mode learning [4/4]                                         :LEARNING:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-12 Thu 16:02
+   :ARCHIVE_FILE: ~/org/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :END:
+   :CLOCKING:
+   CLOCK: [2020-03-12 Thu 15:57]--[2020-03-12 Thu 15:58] =>  0:01
+   :END:
+*** DONE Learn to make org todo to have links to files/directories
+    CLOSED: [2020-03-11 Wed 23:13]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2020-03-11 Wed 23:13] \\
+      Yeah got this done with a capture. We only will have one agenda file for now on.
+    - State "PROJ"       from "SOMEDAY"    [2020-03-11 Wed 21:15]
+    - State "SOMEDAY"    from "WAITING"    [2020-03-11 Wed 21:15]
+    - State "WAITING"    from "TODO"       [2020-03-11 Wed 21:14]
+    - State "TODO"       from              [2020-03-11 Wed 02:48] \\
+      I want to have a todo that points to things like my lab and something like a location in a 
+      project
+    :END:
+*** COMEBACK Get better at capture
+    CLOSED: [2020-03-12 Thu 16:02]
+    :LOGBOOK:
+    - State "COMEBACK"   from "PROGRESS"   [2020-03-12 Thu 16:02] \\
+      maybe come back to when I think about another useful capture. maybe a simple note idk
+    - State "PROGRESS"   from "TODO"       [2020-03-11 Wed 23:13] \\
+      Made some decent progress in understanding captures.
+    - State "TODO"       from              [2020-03-11 Wed 02:59] \\
+      I want to make some templates that can make quick entries in this file like done
+      [[https://youtu.be/PVsSOmUB7ic?t=128][youtube link]]
+    :END:
+*** DONE Make a file similar to this one
+    CLOSED: [2020-03-11 Wed 23:12]
+    :LOGBOOK:
+    - State "DONE"       from "PROGRESS"   [2020-03-11 Wed 23:12] \\
+      I am just gonna say that is this done. I feel like I can extend from my own personalization now.
+    - State "PROGRESS"   from "TODO"       [2020-03-11 Wed 23:12] \\
+      Getting pretty close.
+    - State "TODO"       from              [2020-03-11 Wed 03:02] \\
+      Want to make a file similar to this one [[https://youtu.be/PVsSOmUB7ic?t=118][youtube link]]
+    :END:
+*** CANCEL Learn how to make clock-table
+    CLOSED: [2020-03-12 Thu 15:59]
+    :LOGBOOK:
+    - State "CANCEL"     from "PROGRESS"   [2020-03-12 Thu 15:59] \\
+      dont feel like this will be important just clutter up my planner
+    - State "PROGRESS"   from "TODO"       [2020-03-11 Wed 23:11] \\
+      made it but not really sure how it works
+    :END:
+
+** DONE lab lab06 61C                                            :COURSEWORK:
+   CLOSED: [2020-03-12 Thu 16:33] SCHEDULED: <2020-03-12 Thu> DEADLINE: <2020-03-13 Fri>
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-12 Thu 16:40
+   :ARCHIVE_FILE: ~/org/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :ARCHIVE_TODO: DONE
+   :END:
+   :CLOCKING:
+   CLOCK: [2020-03-12 Thu 16:06]--[2020-03-12 Thu 16:33] =>  0:27
+   CLOCK: [2020-03-12 Thu 16:03]--[2020-03-12 Thu 16:05] =>  0:02
+   CLOCK: [2020-03-11 Wed 18:29]--[2020-03-11 Wed 19:11] =>  0:42
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "PROGRESS"   [2020-03-12 Thu 16:33] \\
+     finished actual lab!!
+   - State "PROGRESS"   from "TODO"       [2020-03-11 Wed 23:54] \\
+     had some trouble with git got everything but the last exercise to pass the autograder.
+   - State "TODO"       from              [2020-03-11 Wed 02:50] \\
+     do the last exercise for the lab06 and check off queue
+   :END:
+
+* 2020-03-12 Thursday[/]
+
+** DONE [#A] SUBMIT LAB 6 !!!                                    :COURSEWORK:
+   CLOSED: [2020-03-13 Fri 13:57]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-13 Fri 13:57
+   :ARCHIVE_FILE: ~/org/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :ARCHIVE_TODO: DONE
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2020-03-13 Fri 13:57] \\
+     turned in lab got token
+   - State "WAITING"    from "TODO"       [2020-03-12 Thu 16:42]
+   - State "TODO"       from              [2020-03-12 Thu 16:41] \\
+     must submit lab 6 during some office hour using weird queue system.
+   :END:
+
+* 2020-03-17 Tuesday[/]
+
+** DONE make a capture that is a habit 
+   CLOSED: [2020-03-17 Tue 15:14]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2020-03-17 Tue 15:14
+   :ARCHIVE_FILE: ~/org/planner.org
+   :ARCHIVE_OLPATH: Today
+   :ARCHIVE_CATEGORY: planner
+   :ARCHIVE_TODO: DONE
+   :END:
+   make a capture that has a new habit i want to do
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2020-03-17 Tue 15:14] \\
+     done something else
+   - ADDED: [2020-03-16 Mon 22:51]
+   :END:
+
